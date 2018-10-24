@@ -28,12 +28,12 @@ export default class Login extends React.Component {
             <View style={styles.container}>
                 <Text style={styles.header}> -Login- </Text>
                 <TextInput
-                    style={styles.textInput} placeholder="Username"
+                    style={styles.textInput} placeholder="Enter Username"
                     onChangeText={(username)=>this.setState({username})}
                     underlineColorAndroid='transparent'
                 />
                 <TextInput
-                    style={styles.textInput} placeholder="Password"
+                    style={styles.textInput} placeholder="Enter Password"
                     onChangeText={(password)=>this.setState({password})}
                     underlineColorAndroid='transparent'
                 />
